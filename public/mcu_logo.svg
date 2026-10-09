@@ -1,0 +1,51 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="topTextPath" d="M 68,250 A 182,182 0 0,1 432,250" fill="none" />
+    <path id="bottomTextPath" d="M 432,250 A 182,182 0 0,1 68,250" fill="none" />
+  </defs>
+  <circle cx="250" cy="250" r="248" fill="#ffffff" />
+  <circle cx="250" cy="250" r="244" fill="none" stroke="#E4007F" stroke-width="5" />
+  <circle cx="250" cy="250" r="236" fill="none" stroke="#E4007F" stroke-width="2.5" />
+  <circle cx="250" cy="250" r="218" fill="none" stroke="#E4007F" stroke-width="3" />
+  <circle cx="250" cy="250" r="148" fill="none" stroke="#E4007F" stroke-width="3" />
+  <circle cx="250" cy="250" r="142" fill="none" stroke="#E4007F" stroke-width="1.5" />
+
+  <text fill="#E4007F" font-size="34" font-weight="bold" font-family="'Sarabun', 'Prompt', sans-serif" letter-spacing="3">
+    <textPath href="#topTextPath" startOffset="50%" text-anchor="middle">
+      ปญฺญา  โลกสฺมิ  ปชฺโชโต
+    </textPath>
+  </text>
+  <text fill="#E4007F" font-size="24" font-weight="bold" font-family="'Sarabun', 'Prompt', sans-serif" letter-spacing="1.5">
+    <textPath href="#bottomTextPath" startOffset="50%" text-anchor="middle">
+      มหาวิทยาลัยมหาจุฬาลงกรณราชวิทยาลัย
+    </textPath>
+  </text>
+
+  <g transform="translate(62, 250)">
+    <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#E4007F" />
+  </g>
+  <g transform="translate(438, 250)">
+    <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#E4007F" />
+  </g>
+
+  <circle cx="250" cy="250" r="108" fill="#E4007F" />
+  <circle cx="250" cy="250" r="88" fill="#ffffff" />
+  <circle cx="250" cy="250" r="88" fill="none" stroke="#E4007F" stroke-width="3" />
+
+  <g transform="translate(250, 235)">
+    <circle cx="0" cy="-60" r="3.5" fill="#E4007F" />
+    <line x1="0" y1="-60" x2="0" y2="-45" stroke="#E4007F" stroke-width="2.5" />
+    <polygon points="-5,-45 0,-52 5,-45" fill="#E4007F" />
+    <ellipse cx="0" cy="-40" rx="6" ry="2.5" fill="#E4007F" />
+    <ellipse cx="0" cy="-35" rx="8" ry="3" fill="none" stroke="#E4007F" stroke-width="2" />
+    <path d="M -11,-30 C -9,-35 9,-35 11,-30 L 14,-15 C 14,-5 -14,-5 -14,-15 Z" fill="none" stroke="#E4007F" stroke-width="2" />
+    <line x1="-8" y1="-25" x2="8" y2="-25" stroke="#E4007F" stroke-width="1.2" />
+    <line x1="-10" y1="-20" x2="10" y2="-20" stroke="#E4007F" stroke-width="1.2" />
+    <line x1="-12" y1="-15" x2="12" y2="-15" stroke="#E4007F" stroke-width="1.2" />
+    <path d="M -18,-10 C -18,-2 18,-2 18,-10 Z" fill="none" stroke="#E4007F" stroke-width="2" />
+    <ellipse cx="0" cy="18" rx="42" ry="16" fill="#ffffff" stroke="#E4007F" stroke-width="2.5" />
+    <text x="0" y="23" text-anchor="middle" fill="#E4007F" font-size="14" font-weight="bold" font-family="'Sarabun', 'Prompt', sans-serif" letter-spacing="4">
+      ม  จ  ร
+    </text>
+  </g>
+</svg>

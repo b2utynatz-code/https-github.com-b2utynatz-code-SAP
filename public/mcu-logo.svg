@@ -1,0 +1,98 @@
+<svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D061" />
+      <stop offset="50%" stop-color="#C99700" />
+      <stop offset="100%" stop-color="#9A7000" />
+    </linearGradient>
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE58F" />
+      <stop offset="100%" stop-color="#D4A017" />
+    </linearGradient>
+    <linearGradient id="magentaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6007E" />
+      <stop offset="100%" stop-color="#C20066" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sunburst Rays on Top -->
+  <g fill="url(#goldGrad)">
+    <polygon points="200,20 195,120 205,120" />
+    <polygon points="200,20 182,125 190,123" />
+    <polygon points="200,20 210,123 218,125" />
+    <polygon points="200,20 170,135 178,130" />
+    <polygon points="200,20 222,130 230,135" />
+    <polygon points="200,20 155,150 165,142" />
+    <polygon points="200,20 235,142 245,150" />
+    <polygon points="200,20 142,168 152,158" />
+    <polygon points="200,20 248,158 258,168" />
+    <polygon points="200,20 130,190 140,178" />
+    <polygon points="200,20 260,178 270,190" />
+    <polygon points="200,20 118,215 128,202" />
+    <polygon points="200,20 272,202 282,215" />
+    <polygon points="200,20 108,245 118,230" />
+    <polygon points="200,20 282,230 292,245" />
+    <polygon points="200,20 98,280 108,260" />
+    <polygon points="200,20 292,260 302,280" />
+    <polygon points="200,20 85,320 96,298" />
+    <polygon points="200,20 304,298 315,320" />
+    <polygon points="200,20 72,365 84,340" />
+    <polygon points="200,20 316,340 328,365" />
+    <polygon points="200,20 60,400 74,380" />
+    <polygon points="200,20 326,380 340,400" />
+  </g>
+
+  <!-- Radiant Disc -->
+  <circle cx="200" cy="55" r="14" fill="url(#goldLight)" stroke="#9A7000" stroke-width="2" />
+
+  <!-- Dhammacakka Wheel -->
+  <g stroke="url(#goldGrad)" stroke-width="6" fill="none">
+    <circle cx="200" cy="305" r="105" stroke-width="12" />
+    <circle cx="200" cy="305" r="94" stroke-width="2" stroke-dasharray="6 4" />
+    <circle cx="200" cy="305" r="80" stroke-width="4" />
+  </g>
+
+  <!-- Hub -->
+  <circle cx="200" cy="305" r="42" fill="url(#goldLight)" stroke="#9A7000" stroke-width="3" />
+  <circle cx="200" cy="305" r="28" fill="#FFF8E7" stroke="#9A7000" stroke-width="2" />
+  <circle cx="200" cy="305" r="14" fill="url(#goldGrad)" />
+
+  <!-- Spokes -->
+  <g stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round">
+    <line x1="200" y1="263" x2="200" y2="225" />
+    <line x1="200" y1="347" x2="200" y2="385" />
+    <line x1="158" y1="305" x2="120" y2="305" />
+    <line x1="242" y1="305" x2="280" y2="305" />
+    <line x1="170" y1="275" x2="144" y2="249" />
+    <line x1="230" y1="335" x2="256" y2="361" />
+    <line x1="170" y1="335" x2="144" y2="361" />
+    <line x1="230" y1="275" x2="256" y2="249" />
+  </g>
+
+  <!-- Phra Kiao Spire & Crown -->
+  <path d="M 200,68 C 196,110 192,150 188,180 L 212,180 C 208,150 204,110 200,68 Z" fill="url(#goldLight)" stroke="#9A7000" stroke-width="2" />
+  <ellipse cx="200" cy="180" rx="16" ry="6" fill="url(#goldGrad)" stroke="#7A5600" stroke-width="1.5" />
+  <path d="M 184,180 L 176,210 L 224,210 L 216,180 Z" fill="url(#goldLight)" stroke="#9A7000" stroke-width="2" />
+  <ellipse cx="200" cy="210" rx="26" ry="7" fill="url(#goldGrad)" stroke="#7A5600" stroke-width="2" />
+  <path d="M 172,212 L 160,250 L 240,250 L 228,212 Z" fill="url(#goldLight)" stroke="#9A7000" stroke-width="2" />
+  <ellipse cx="200" cy="250" rx="42" ry="9" fill="url(#goldGrad)" stroke="#7A5600" stroke-width="2" />
+  <path d="M 156,252 L 140,310 L 260,310 L 244,252 Z" fill="url(#goldLight)" stroke="#9A7000" stroke-width="2" />
+  <ellipse cx="200" cy="310" rx="62" ry="11" fill="url(#goldGrad)" stroke="#7A5600" stroke-width="2" />
+  <path d="M 136,312 C 145,345 165,365 200,368 C 235,365 255,345 264,312 Z" fill="url(#goldLight)" stroke="#9A7000" stroke-width="2.5" />
+
+  <!-- Magenta-Pink Base Cushion with White Text ม จ ร -->
+  <ellipse cx="200" cy="410" rx="155" ry="46" fill="#8A0044" />
+  <ellipse cx="200" cy="406" rx="150" ry="42" fill="url(#magentaGrad)" stroke="#FFF" stroke-width="1.5" />
+  <ellipse cx="200" cy="406" rx="144" ry="37" fill="none" stroke="#FFF" stroke-width="2.5" stroke-dasharray="4 4" />
+  <text x="200" y="426" font-family="'Sarabun', 'Prompt', sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="18">ม จ ร</text>
+
+  <!-- Golden Tassels -->
+  <g stroke="url(#goldGrad)" stroke-width="3" fill="none">
+    <path d="M 60,390 Q 35,420 40,460" stroke-width="4" />
+    <circle cx="40" cy="460" r="5" fill="url(#goldLight)" />
+    <path d="M 36,462 L 28,495 M 40,462 L 40,498 M 44,462 L 52,495" stroke-width="3" stroke-linecap="round" />
+    <path d="M 340,390 Q 365,420 360,460" stroke-width="4" />
+    <circle cx="360" cy="460" r="5" fill="url(#goldLight)" />
+    <path d="M 356,462 L 348,495 M 360,462 L 360,498 M 364,462 L 372,495" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>
